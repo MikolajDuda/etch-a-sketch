@@ -1,3 +1,3 @@
 # etch-a-sketch
 
-this will be my etch-a-sketch project from the odin project course
+[Try it!](https://mikolajduda.github.io/etch-a-sketch/)
