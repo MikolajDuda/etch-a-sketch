@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Etch-a-sketch</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="top-container">
+            <h1>Etch-a-sketch</h1>
+            <div>
+                <button id="clear-btn">Clear</button>
+            </div>
+            <div>
+                <label for="size-list">Choose a size:</label>
+                <select id="size-list">
+                    <option value="16">16</option>
+                    <option selected value="32">32</option>
+                    <option value="64">64</option>
+                    <option value="90">90</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="board-container"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
