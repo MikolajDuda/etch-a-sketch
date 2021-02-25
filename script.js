@@ -13,7 +13,7 @@ function changeBackground (e) {
     if (e.target.className !== 'grid-item') {
         return;
       }
-    e.target.setAttribute('style', `background: rgb(${random(50, 256)}, ${random(50, 256)}, ${random(50, 256)});`);
+    e.target.setAttribute('style', `background: rgb(${random(0, 220)}, ${random(0, 220)}, ${random(0, 220)});`);
 }
 
 function clearItems() {
